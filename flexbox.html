@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wadah_flex{
+            display: flex;
+            background-color: plum;
+            flex-flow: row;   
+            justify-content: flex-start;
+        }
+        .wadah_flex > div{
+            background-color: aliceblue;
+            margin: 10px;
+            padding: 10px;
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wadah_flex">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+    </div>
+    <p>kesimpulan 1: div akan berbentuk baris memanjang ke kanan dengan background berwarna plum</p>
+    <p>kesimpulan 2: pada tiap div anak dari wadah-flex akan mendapat styling sesuai contoh diatas dan berbentuk row</p>
+    <p>kesimpulan 3: row berarti baris, column berarti kolom, reserve berarti berbalik</p>
+    <p>kesimpulan 4: wrap dan wrap-reserve akan membuat susunan angka menjadi lebih rapi, tergantung ukuran layar. reserve berarti berbalik</p>
+    <p>kesimpulan 5: merupakan gabungan dari flex-direction dan flex-wrap</p>
+    <p>kesimpulan 6: mengatur posisi dari div anak, bisa berupa center, awal dan akhir</p>
+</body>
+</html>
